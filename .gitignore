@@ -1,0 +1,62 @@
+# =========================================================
+# .gitignore — Proyecto Final PLN (Agentic RAG Mundial 2026)
+# =========================================================
+
+# --- Virtual environment ---
+.venv/
+venv/
+env/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- IDE / editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Secrets / credenciales ---
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+kaggle.json
+~/.kaggle/
+
+# --- Vector DB local (regenerable con NB04) ---
+chroma_db/
+*.sqlite3
+*.sqlite
+
+# --- Documentos personales / no entregables ---
+ContenidoCurso.md
+Instrucciones.txt
+Plan.md
+
+# --- Outputs notebook ---
+*.html
+*.log
+
+# --- Backups / archivos temporales ---
+*.bak
+*.tmp
+*.old
+.~*
+
+# --- Cache externo ---
+.cache/

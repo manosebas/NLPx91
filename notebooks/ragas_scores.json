@@ -1,0 +1,139 @@
+{
+  "n_total": 40,
+  "n_eval_ragas": 38,
+  "baseline": {
+    "ragas": {
+      "faithfulness": 0.6429824561403509,
+      "answer_relevancy": 0.6907056844507601,
+      "answer_correctness": 0.5724210934264361,
+      "factual_correctness": 0.5418421052631579
+    },
+    "fuente_recall": 0.7368421052631579
+  },
+  "agente": {
+    "ragas": {
+      "faithfulness": 0.7672932330827068,
+      "answer_relevancy": 0.47598628748384103,
+      "answer_correctness": 0.6445004217553306,
+      "factual_correctness": 0.6276315789473684
+    },
+    "fuente_recall": 0.7631578947368421,
+    "tool_routing_accuracy": 0.925
+  },
+  "targets": {
+    "faithfulness": 0.7,
+    "answer_relevancy": 0.65,
+    "answer_correctness": 0.6,
+    "factual_correctness": 0.6
+  },
+  "por_categoria": [
+    {
+      "sistema": "agente",
+      "categoria": "multi-hop",
+      "n": 4,
+      "faithfulness": 0.875,
+      "answer_relevancy": 0.6548863595493797,
+      "answer_correctness": 0.6845443226176772,
+      "factual_correctness": 0.5075000000000001
+    },
+    {
+      "sistema": "baseline",
+      "categoria": "multi-hop",
+      "n": 4,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "answer_correctness": 0.0413605169045218,
+      "factual_correctness": 0.0
+    },
+    {
+      "sistema": "agente",
+      "categoria": "mundial-calendario",
+      "n": 6,
+      "faithfulness": 0.6444444444444445,
+      "answer_relevancy": 0.4441217128351365,
+      "answer_correctness": 0.6078842433391461,
+      "factual_correctness": 0.5683333333333334
+    },
+    {
+      "sistema": "baseline",
+      "categoria": "mundial-calendario",
+      "n": 6,
+      "faithfulness": 0.48888888888888893,
+      "answer_relevancy": 0.7823836587621488,
+      "answer_correctness": 0.7107898775929319,
+      "factual_correctness": 0.68
+    },
+    {
+      "sistema": "agente",
+      "categoria": "mundial-kaggle",
+      "n": 6,
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.6078096588542047,
+      "answer_correctness": 0.5934207902245728,
+      "factual_correctness": 0.5333333333333333
+    },
+    {
+      "sistema": "baseline",
+      "categoria": "mundial-kaggle",
+      "n": 6,
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.7316290282799791,
+      "answer_correctness": 0.6169404415770842,
+      "factual_correctness": 0.6449999999999999
+    },
+    {
+      "sistema": "agente",
+      "categoria": "mundial-reglamento",
+      "n": 6,
+      "faithfulness": 0.7444444444444445,
+      "answer_relevancy": 0.2599955191900813,
+      "answer_correctness": 0.5173022690444126,
+      "factual_correctness": 0.5483333333333333
+    },
+    {
+      "sistema": "baseline",
+      "categoria": "mundial-reglamento",
+      "n": 6,
+      "faithfulness": 0.8333333333333334,
+      "answer_relevancy": 0.7136537569912504,
+      "answer_correctness": 0.6087276334299675,
+      "factual_correctness": 0.645
+    },
+    {
+      "sistema": "agente",
+      "categoria": "mundial-wiki",
+      "n": 8,
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.3620265171975863,
+      "answer_correctness": 0.6596255069212573,
+      "factual_correctness": 0.7362500000000001
+    },
+    {
+      "sistema": "baseline",
+      "categoria": "mundial-wiki",
+      "n": 8,
+      "faithfulness": 0.625,
+      "answer_relevancy": 0.8239244839136144,
+      "answer_correctness": 0.6515196233541871,
+      "factual_correctness": 0.63625
+    },
+    {
+      "sistema": "agente",
+      "categoria": "plataforma",
+      "n": 8,
+      "faithfulness": 0.9363095238095238,
+      "answer_relevancy": 0.5875200004164014,
+      "answer_correctness": 0.7705238581516253,
+      "factual_correctness": 0.75375
+    },
+    {
+      "sistema": "baseline",
+      "categoria": "plataforma",
+      "n": 8,
+      "faithfulness": 0.875,
+      "answer_relevancy": 0.7861776842024624,
+      "answer_correctness": 0.5944568475191356,
+      "factual_correctness": 0.46
+    }
+  ]
+}
